@@ -4,9 +4,8 @@
 
 
 * {
-    margin: 1px;
-    padding: 2px;
-    
+    margin: 0px;
+    padding: 0px;
 }
 body{
     background: url("BG.jpg");
@@ -15,7 +14,7 @@ body{
 
 .sidebar {
     position: absolute;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(147 179 176);
     width: 233px;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
@@ -249,10 +248,18 @@ position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
+    color: rgb(48, 75, 72);
 }
+.hambar{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
 .cancel{
-    margin-left:  189px;
-    margin-top: -6px;
+    position: absolute;
+    top: 15px;
+    left: 180px;
 }
 
 @media (max-width:683px){

@@ -3,11 +3,11 @@ document.querySelector('.cancel').style.display = 'none';
 document.querySelector('.hamburger').addEventListener("click", () => {
     document.querySelector('.sidebar').classList.toggle('sidebargo');
     if (document.querySelector('.sidebar').classList.contains('sidebargo')) {
-        document.querySelector('.ham').style.display = 'inline'
+        document.querySelector('.hambar').style.display = 'inline'
         document.querySelector('.cancel').style.display = 'none'
     }
     else {
-        document.querySelector('.ham').style.display = 'none'
+        document.querySelector('.hambar').style.display = 'none'
         setTimeout(() => {
             document.querySelector('.cancel').style.display = 'inline'
         }, 300);
