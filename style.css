@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+
+
+
+* {
+    margin: 1px;
+    padding: 2px;
+    
+}
+body{
+    background: url("BG.jpg");
+    background-size: cover;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(211, 211, 211);
+    width: 233px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.sidebar nav {
+    padding: 76px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 23px;
+    padding: 33PX 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.main {
+    /* background-color: blue; */
+    width: 90vw;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: yellowgreen; */
+    width: 73vw;
+    height: 44vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.hello {
+    font-size: 2em;
+
+}
+
+.name {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.about {
+    font-size: 1.5em;
+}
+
+.moreabout {
+    font-size: 1.2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 13px;
+}
+
+.buttons {
+    margin-top: 34px;
+    font-size: 10px;
+}
+
+.btn {
+    padding: 11px;
+    border-radius: 27px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 9px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    color: rgb(1, 1, 1);
+    background-color: rgb(246, 7, 7);
+
+}
+
+.devpic img {
+    width: 296px;
+    height: 44vb;
+    border-radius: 174px;
+
+}
+
+.contactform {
+    padding: 1px 8px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 88px;
+
+
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 23px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    /* width: 34vw; */
+    border-radius: 22px;
+    font-size: 25px;
+    margin: 3px 0px 0;
+    padding: 2px;
+}
+
+#emailHelp {
+    font-size: 13px;
+    color: darkorchid;
+    margin: 0 0 0;
+    padding: 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 30px;
+    margin: 0px;
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer{
+    margin: 0 88px;
+}
+
+.blogcontainer h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+.blogitem p {
+    font-family: 'Source Code Pro', monospace;
+}
+.aboutme{
+    margin: 0 88px;
+}
+
+.aboutme h1 {
+    margin: 6px;
+    padding: 41px 4px 6px 15px;
+    font-size: 31px;
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+.aboutme h2 {
+    margin: 6px;
+    padding: 41px 4px 6px 15px;
+    font-size: 31px;
+    font-family: 'Source Code Pro', monospace;
+}
+.aboutme p {
+    margin: 6px;
+    padding: 41px 4px 6px 15px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.devpic1 img {
+    width: 219px;
+    height: 31vb;
+    border-radius: 185px;
+}
+.skillcontainer{
+padding: 12px;
+}
+.skill{
+width: 265px;
+height: 6px;
+background-color: red;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.hunderd{
+    width: 318px;
+
+}
+.seventyfive{
+    width: 241px;
+}
+.fifty{
+    width: 122px;
+}
+.t25{
+    width: 91px;
+
+}
+.sidebargo{
+    transform:translate(-264px,0px);
+position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cancel{
+    margin-left:  189px;
+    margin-top: -6px;
+}
+
+@media (max-width:683px){
+    .buttons{
+        font-size: 5px;
+    }
+
+
+.devinfo{
+    font-size: 10px;
+}
+.devpic{
+    display: none;
+    
+}
+.blogcontainer , .contactform , .aboutme{
+    margin: 50px 8px;
+
+}
+
+
+}
